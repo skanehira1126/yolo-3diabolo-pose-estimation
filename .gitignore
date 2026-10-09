@@ -1,0 +1,27 @@
+/assets/*
+!/assets/.gitkeep
+
+/outputs/*
+!/outputs/.gitkeep
+
+# Downloaded model weights
+/models/*
+!/models/.gitkeep
+*.pt
+*.onnx
+
+# Local environments and generated caches
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+*.egg-info/
+build/
+dist/
+
+# Local credentials
+.env
+.env.*
+!.env.example
