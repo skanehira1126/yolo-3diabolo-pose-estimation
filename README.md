@@ -2,6 +2,10 @@
 
 3ディアボロウィンドミルの動画に人体の骨格を重ね、元映像と比較するためのツールです。人体姿勢推定にはUltralytics YOLO26 Poseを使用します。
 
+## ワークショップの復習資料
+
+受講者向けの[3ディアボロ・ウィンドミルWS 復習ガイド](docs/3diabolo-ws.md)を公開しています。スタート、押し方、練習のコツとチェックリストを、[参考動画](https://youtu.be/MuJpMl6xutY)と合わせて確認できます。
+
 ## 準備
 
 Python 3.12以上、uv、FFmpeg（ffprobeを含む）が必要です。プロジェクト直下で依存関係をインストールし、入力動画を`assets/`に用意してください。動画とモデル重みはリポジトリに含まれません。
@@ -71,3 +75,4 @@ FPS、解像度、1フレームの総画素数を表示します。YOLOモデル
 本プロジェクトのソースコードとNotebookはGNU Affero General Public License v3.0（`AGPL-3.0-only`）で公開します。全文は[LICENSE](LICENSE)を参照してください。
 
 利用するUltralytics YOLOのコードとモデルには、[Ultralyticsのライセンス条件](https://www.ultralytics.com/license)が適用されます。その他の依存ソフトウェア・モデルは各配布元のライセンスに従います。入力動画の権利はそれぞれの権利者に帰属します。
+
